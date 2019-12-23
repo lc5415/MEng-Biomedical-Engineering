@@ -1,4 +1,4 @@
-These 3 pieces of code are all my own and were written as pieces of Programming II coursework in Biomedical Engineering Year 2 at Imperial College. cells.cpp and connect4.cpp were awarded full marks whereas protein.cpp was awarded 80%
+These 3 pieces of code(cells.cpp, connect4.cpp, protein.cpp) are all my own and were written as pieces of Programming II coursework in Biomedical Engineering Year 2 at Imperial College. cells.cpp and connect4.cpp were awarded full marks whereas protein.cpp was awarded 80%
 
 to run any of the scripts, clone this repository or download either file (and its related files), and run the following in terminal:
     sudo g++ code.cpp
