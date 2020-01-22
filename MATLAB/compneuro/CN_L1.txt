@@ -1,0 +1,26 @@
+Computational Neuroscience
+
+Lecture 1 Tuesday 15th January
+
+09:00 ->
+
+Intro: How neurons work together "Who fires together, wires together"
+
+Memory is encoded in connections between neurons. Associative memory, memory 
+from associating related objects to a memory.
+
+Structure of course:
+3 main topics
+-single neurons
+- networks of neurones
+- Synaptic plasticity (learning and memory)
+
+Problem sets:
+-single neurons [PEN AND PAPER]
+- networks of neurones [ CODING]
+- Synaptic plasticity (learning and memory)[CODING]
+
+final exam: 100%
+
+--------------------------
+
