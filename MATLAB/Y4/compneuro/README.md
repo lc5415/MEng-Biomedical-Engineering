@@ -1,16 +1,16 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2509
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13720\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 # Computational Neuroscience\
-\
-## Instructed by Professor Claudia Clopath\
-\
-## Aims: \
- * To provide student with an appreciation of the role of computational and theoretical approaches to understanding the nervous system\
+# Computational Neuroscience
+## Instructed by Professor Claudia Clopath
+## Aims:
+ * To provide student with an appreciation of the role of computational and theoretical approaches to understanding the nervous system
  * To provide students with some practical skills of numerical tools to simulate Computational Neuroscience models\
-\
-}
+
+## Description of practicals
+ * __Practical 1__: Single Neuron Models, modelling voltage across a passive membrane /& integrate-and-fire model
+ * __Practical 2__: Hodgkin-Huxley and Phase Plane Analysis, modelling of an ion channel and phase plane stability analysis
+ * __Practical 3__: Single Neuron models, Piecewise linear Fitzhugh-Nagumo Model
+ * __Practical 4__: Integrate-and-Fire model
+ * __Practical 5__: Neural Network, modelling a ring network (inputs --> neurons --> networks)
+ * __Practical 6__: Neural Networks, Spiking network
+ * __Practical 7__: Synaptic plasticity, Bienenstock Cooper Munro (BCM) rule, Spike-Timing Dependent Plasticity (STDP)
+ * __Practical 8__: Synaptic plasticity, The Perceptron
+ * __Practical 9__: Synaptic plasticity, Temporal Difference (TD) Learning
