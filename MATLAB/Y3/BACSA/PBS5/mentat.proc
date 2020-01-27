@@ -1,0 +1,308 @@
+| Created by Marc Mentat 2013.1.0 (64bit)
+*prog_option compatibility:prog_version:ment2013.1
+*prog_analysis_class structural
+*prog_use_current_job on
+|
+*open_model "h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.mud"
+*elements_solid *regenerate
+*fill_view
+*dynamic_model_on
+*mouse_button_press(1)
+*scale(1,1.008469)
+*scale(1,1.014191)
+*scale(1,1.013290)
+*scale(1,1.018024)
+*scale(1,1.019040)
+*scale(1,1.020964)
+*scale(1,1.028696)
+*scale(1,1.028696)
+*scale(1,1.022891)
+*scale(1,1.022891)
+*scale(1,1.022891)
+*scale(1,1.019040)
+*scale(1,1.017120)
+*scale(1,1.013290)
+*scale(1,1.014191)
+*scale(1,1.018024)
+*scale(1,1.010373)
+*scale(1,1.009475)
+*scale(1,1.010373)
+*scale(1,1.005674)
+*scale(1,1.005674)
+*scale(1,1.005674)
+*scale(1,1.001888)
+*scale(1,0.982295)
+*scale(1,0.966725)
+*scale(1,0.962230)
+*scale(1,0.956696)
+*scale(1,0.941532)
+*scale(1,0.964903)
+*scale(1,0.953198)
+*scale(1,0.961270)
+*scale(1,0.972105)
+*scale(1,0.968445)
+*scale(1,0.977621)
+*scale(1,0.979466)
+*scale(1,0.980444)
+*scale(1,0.978596)
+*scale(1,0.982295)
+*scale(1,0.977727)
+*scale(1,0.982295)
+*scale(1,0.982295)
+*scale(1,0.986007)
+*scale(1,0.979573)
+*scale(1,0.979573)
+*scale(1,0.978596)
+*scale(1,0.977727)
+*scale(1,0.978596)
+*scale(1,0.980444)
+*scale(1,0.986007)
+*scale(1,0.992484)
+*scale(1,0.994358)
+*scale(1,0.998116)
+*scale(1,0.995350)
+*scale(1,0.998116)
+*mouse_button_release(1)
+*mouse_button_press(1)
+*rotate(1,0.127793,-0.009872,0.104704)
+*rotate(1,0.127793,-0.010258,0.104667)
+*rotate(1,0.127793,-0.010650,0.104628)
+*rotate(1,0.255106,-0.022662,0.208736)
+*rotate(1,0.255560,-0.024265,0.208934)
+*rotate(1,0.255557,-0.025819,0.208748)
+*rotate(1,0.382988,-0.041976,0.312452)
+*rotate(1,0.383283,-0.045518,0.312209)
+*rotate(1,0.369063,0.162280,0.331343)
+*rotate(1,0.386560,-0.052448,0.311443)
+*rotate(1,0.612001,0.324894,0.563446)
+*rotate(1,0.483999,0.335801,0.460391)
+*rotate(1,0.768836,0.072653,0.637566)
+*rotate(1,0.751253,0.265393,0.667306)
+*rotate(1,0.598193,0.483622,0.598971)
+*rotate(1,0.627272,0.267783,0.564265)
+*rotate(1,0.631087,0.257171,0.564205)
+*rotate(1,0.607472,0.446881,0.603640)
+*rotate(1,0.500953,0.269835,0.465836)
+*rotate(1,0.362101,0.296589,0.370602)
+*rotate(1,0.476265,0.452899,0.509442)
+*rotate(1,0.594138,0.601387,0.648986)
+*rotate(1,0.307326,0.660269,0.466425)
+*rotate(1,0.377668,0.274023,0.366564)
+*rotate(1,0.431028,0.794818,0.609220)
+*rotate(1,0.287095,0.817943,0.522777)
+*rotate(1,0.231043,1.169032,0.631571)
+*rotate(1,0.184268,1.505275,0.743109)
+*rotate(1,0.192173,0.638368,0.380735)
+*rotate(1,0.108659,1.152434,0.554755)
+*rotate(1,0.093691,1.307872,0.613670)
+*rotate(1,0.135158,1.122236,0.553926)
+*rotate(1,0.122577,1.275604,0.614935)
+*rotate(1,0.260995,1.559320,0.800395)
+*rotate(1,-0.034720,1.429180,0.623253)
+*rotate(1,-0.015987,1.413981,0.623437)
+*rotate(1,0.002414,1.400568,0.623695)
+*rotate(1,0.210180,1.212769,0.603561)
+*rotate(1,-0.125992,1.240526,0.522888)
+*rotate(1,-0.099228,1.079377,0.457871)
+*rotate(1,-0.088507,1.073986,0.457891)
+*rotate(1,-0.046873,0.611595,0.261885)
+*rotate(1,-0.033191,0.458112,0.196614)
+*rotate(1,-0.031222,0.456670,0.196318)
+*rotate(1,-0.029311,0.455946,0.196310)
+*rotate(1,-0.009516,0.151730,0.065420)
+*rotate(1,-0.009308,0.151730,0.065450)
+*rotate(1,-0.009102,0.151729,0.065480)
+*rotate(1,-0.188224,0.162217,0.044970)
+*rotate(1,-0.008677,0.153016,0.065531)
+*rotate(1,-0.355139,0.016938,-0.039528)
+*rotate(1,-0.530628,0.024753,-0.059295)
+*rotate(1,-0.176751,0.008182,-0.019777)
+*rotate(1,-0.176751,0.008121,-0.019802)
+*rotate(1,-0.351866,0.015922,-0.039521)
+*rotate(1,-0.175657,0.007886,-0.019755)
+*rotate(1,-0.350767,0.015505,-0.039544)
+*rotate(1,-0.349666,0.015211,-0.039515)
+*rotate(1,-0.696582,0.029333,-0.079085)
+*rotate(1,-0.340025,-0.141176,-0.095753)
+*rotate(1,-0.519426,0.021479,-0.060732)
+*rotate(1,-0.510260,-0.135564,-0.114290)
+*rotate(1,-0.515515,0.020696,-0.062085)
+*rotate(1,-0.506695,-0.137208,-0.112773)
+*rotate(1,-0.512703,0.019912,-0.063544)
+*rotate(1,-0.511576,0.019292,-0.063582)
+*rotate(1,-0.679028,0.024590,-0.084695)
+*rotate(1,-0.507421,0.017803,-0.063454)
+*rotate(1,-0.506661,0.017206,-0.063516)
+*rotate(1,-0.505520,0.016598,-0.063525)
+*rotate(1,-0.336947,0.010809,-0.042407)
+*rotate(1,-0.336375,0.010539,-0.042399)
+*rotate(1,-0.502465,0.015179,-0.063471)
+*rotate(1,-0.333503,0.009824,-0.042187)
+*rotate(1,-0.667303,0.018658,-0.084638)
+*rotate(1,-0.503827,0.175048,-0.029173)
+*rotate(1,-0.170985,0.166531,0.012696)
+*rotate(1,-0.336331,0.169960,-0.007773)
+*rotate(1,-0.335889,0.169683,-0.007773)
+*rotate(1,-0.173141,0.327833,0.042699)
+*rotate(1,-0.165648,0.003460,-0.018283)
+*rotate(1,-0.169479,0.165790,0.011743)
+*rotate(1,-0.003220,0.161584,0.029705)
+*rotate(1,-0.003133,0.161584,0.029714)
+*rotate(1,-0.005934,0.323756,0.059556)
+*rotate(1,-0.002891,0.162751,0.029956)
+*rotate(1,-0.005420,0.324339,0.059716)
+*rotate(1,-0.005061,0.323755,0.059641)
+*rotate(1,-0.004703,0.323170,0.059564)
+*rotate(1,-0.004356,0.323170,0.059592)
+*rotate(1,-0.004015,0.323755,0.059727)
+*rotate(1,-0.006634,0.646345,0.119295)
+*rotate(1,-0.004193,0.485146,0.089603)
+*rotate(1,-0.170125,0.485728,0.081251)
+*rotate(1,-0.169286,0.485616,0.081266)
+*rotate(1,-0.001778,0.484876,0.086737)
+*rotate(1,-0.167303,0.323191,0.053953)
+*rotate(1,-0.000506,0.484343,0.085216)
+*rotate(1,0.000237,0.484342,0.085223)
+*rotate(1,0.000982,0.485125,0.085362)
+*rotate(1,-0.165551,0.322739,0.058236)
+*rotate(1,0.002181,0.484587,0.083803)
+*rotate(1,0.001785,0.323840,0.055992)
+*rotate(1,0.002106,0.323253,0.055881)
+*rotate(1,0.002436,0.323840,0.055971)
+*rotate(1,0.002761,0.323840,0.055958)
+*rotate(1,0.003087,0.323840,0.055943)
+*rotate(1,0.001626,0.161920,0.027963)
+*rotate(1,0.003582,0.324426,0.056018)
+*rotate(1,0.003899,0.323839,0.055897)
+*rotate(1,0.004234,0.324425,0.055976)
+*rotate(1,0.004559,0.324425,0.055952)
+*rotate(1,0.002376,0.163089,0.028114)
+*rotate(1,0.002439,0.161920,0.027906)
+*rotate(1,-0.163718,-0.002373,0.013909)
+*mouse_button_release(1)
+*mouse_button_press(1)
+*rotate(1,0.000000,0.000000,-0.498104)
+*rotate(1,0.000000,0.000000,-0.246807)
+*rotate(1,0.000000,0.000000,-0.363972)
+*rotate(1,0.000000,0.000000,-0.543295)
+*rotate(1,0.000000,0.000000,-0.360394)
+*rotate(1,0.000000,0.000000,-0.657319)
+*rotate(1,0.000000,0.000000,-0.298374)
+*rotate(1,0.000000,0.000000,-0.533655)
+*rotate(1,0.000000,0.000000,-0.594593)
+*rotate(1,0.000000,0.000000,-0.297171)
+*rotate(1,0.000000,0.000000,-0.472728)
+*rotate(1,0.000000,0.000000,-0.645867)
+*rotate(1,0.000000,0.000000,-0.243372)
+*rotate(1,0.000000,0.000000,-0.418328)
+*rotate(1,0.000000,0.000000,-0.592011)
+*rotate(1,0.000000,0.000000,-0.295671)
+*rotate(1,0.000000,0.000000,-0.418731)
+*rotate(1,0.000000,0.000000,-0.714326)
+*rotate(1,0.000000,0.000000,-0.294951)
+*rotate(1,0.000000,0.000000,-0.373419)
+*rotate(1,0.000000,0.000000,-0.420158)
+*rotate(1,0.000000,0.000000,-0.294918)
+*rotate(1,0.000000,0.000000,-0.420060)
+*rotate(1,0.000000,0.000000,-0.420125)
+*rotate(1,0.000000,0.000000,-0.293993)
+*rotate(1,0.000000,0.000000,-0.378995)
+*rotate(1,0.000000,0.000000,-0.126696)
+*rotate(1,0.000000,0.000000,-0.167198)
+*rotate(1,0.000000,0.000000,-0.293420)
+*rotate(1,0.000000,0.000000,-0.126901)
+*rotate(1,0.000000,0.000000,-0.127076)
+*rotate(1,0.000000,0.000000,-0.127248)
+*mouse_button_release(1)
+*edit_job job1
+
+*edit_job job1
+*update_job
+@popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+*post_contour_bands
+*post_value Comp 22 of Elastic Strain
+*post_monitor
+*post_close
+*colormap 1
+*edit_apply fix_bottom_y
+*edit_apply fix_bottom_y
+*prog_use_current_job on *new_job *job_class structural
+*job_option elastic:on
+*add_post_tensor stress
+*add_post_tensor el_strain
+*add_post_var von_mises
+*check_job
+*update_job
+*submit_job 1 *monitor_job
+@popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+*post_contour_bands
+*post_monitor
+*set_deformed both
+*post_close
+*edit_job job2
+
+*edit_job job2
+*update_job
+@popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+*post_contour_bands
+*post_close
+*edit_apply top_pressure *copy_apply
+*edit_apply apply6
+
+*edit_apply apply6
+*apply_dof_table p
+*clear_apply_dof_table p
+*edit_job job2
+
+*edit_job job2
+*add_job_applys apply6
+*remove_job_applys top_pressure
+*update_job
+*save_model
+*submit_job 1 *monitor_job
+@popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+*post_contour_bands
+*post_close
+*edit_job job1
+
+*edit_job job1
+*update_job
+*job_submit_reset
+*submit_job 1 *monitor_job
+@popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+*post_monitor
+*post_close
+*edit_loadcase lcase1
+
+*edit_loadcase lcase1
+*loadcase_option stepping:fixed
+*loadcase_value nsteps 17
+*save_model
+*edit_job job1
+
+*edit_job job1
+*check_job
+*update_job
+*submit_job 1 *monitor_job
+@popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+*post_contour_bands
+*post_value Equivalent Elastic Strain
+*post_monitor
+*post_value Comp 22 of Stress
+*identify_types *regenerate
+*post_close
+*identify_none *regenerate
+*edit_loadcase lcase1
+
+*edit_loadcase lcase1
+*loadcase_option stepping:multicriteria
+*loadcase_value time 1
+*save_model
+*edit_job job1
+
+*edit_job job1
+*update_job
+*submit_job 1 *monitor_job
+@popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+*post_monitor
+*save_model *quit yes

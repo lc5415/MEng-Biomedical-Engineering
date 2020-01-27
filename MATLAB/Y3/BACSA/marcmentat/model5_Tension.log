@@ -1,0 +1,164 @@
+ Marc 2013.1.0 , Build  230727  Windows_NT version 
+-------------------------------- 
+                     :         
+Program name         : marc  
+Job ID               : H:\model5_Tension   
+Version type         : i4  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intel-mpi 
+Auto restart         : 0  
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads :  
+Solver processes     :  
+Solver threads       :  
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : H: 
+Scratch directory    : H: 
+Default bin directory: C:\MSC.Software\Marc\2013.1.0\marc2013.1\bin\win64 
+Material database    : C:\MSC.Software\Marc\2013.1.0\marc2013.1\AF_flowmat\    
+                     :            
+ 
+03/04/2018 
+13:09
+ 
+  Marc 2013.1.0 model5_Tension begins execution
+
+     (c) COPYRIGHT 2013 MSC Software Corporation, all rights reserved
+
+
+ Requested number of element threads                     =    1
+ Requested number of solver threads                      =    1
+
+
+ VERSION:  Marc 2013.1.0, Build 230727  build date: Sat Oct 26 13:00:39 2013                                                                                              
+
+
+
+     Date: Tue Apr 03 13:09:13 2018
+
+                               Marc 2013.1.0 execution begins
+ Date:          Tue Apr 03 13:09:15 2018
+ MSC Id:        3c52820191fc (ethernet) (Intel)
+ Hostname:      rsmws338-065 (user lc5415, display rsmws338-065)
+ License files: 1700@patran.cc.ic.ac.uk
+ CEID:          56AC76BE-284A4A49
+ User:          lc5415
+ Display:       rsmws338-065
+ LAPI Version:  LAPI 9.3.1-2109 (FLEXlm 11.9.0.0)
+Acquired 1 license for Marc from license server on host patran.cc.ic.ac.uk
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =      8072 MByte
+
+             general memory increasing from      25 MByte to      53 MByte
+
+   MSC Customer Entitlement ID
+        56AC76BE-284A4A49
+
+             general memory increasing from      53 MByte to     111 MByte
+             wall time =          22.00
+
+             wall time =          26.00
+
+             general memory increasing from     111 MByte to     601 MByte
+
+             start of assembly     cycle number is     0
+             wall time =          27.00
+
+
+
+             start of matrix solution
+             wall time =          49.00
+
+
+
+             singularity ratio    5.7350E-03
+
+
+             end of matrix solution
+             wall time =          75.00
+
+
+             total  memory =         3336  MByte
+
+             e n d   o f   i n c r e m e n t       0
+             wall time =          93.00
+
+Returned 1 license for Marc
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:          93    24355218         2.8
+               solver: first part                  505   132429840        15.1
+               overallocation initial allocation     0           4         0.0
+               other:                                3      789127         0.1
+              allocated separately:
+               solver 8                           1806   473364444        54.1
+               nodal vectors:                      171    44940200         5.1
+               defined sets:                         0        3100         0.0
+               tyings:                               1      208757         0.0
+               transformations:                      1      340456         0.0
+               kinematic boundary conditions:        0        1206         0.0
+               points, curves and surfaces:          0          54         0.0
+               mem_none:                            77    20129458         2.3
+               element storage:                    652   170975318        19.6
+               material properties:                  0        2032         0.0
+               executable and common blocks:        27     7000000         0.8
+               miscellaneous                         0         111         0.0
+               ---------------------------------------------------------------
+               total:                             3336   874539325
+
+               general memory allocated:           601   157574189
+               general memory used:                601   157574185
+
+               peak memory usage:                 3413   894619765
+
+
+             timing information:                       wall time      cpu time
+
+               total time for input:                       23.47         22.93
+               total time for stiffness assembly:           4.09          4.06
+               total time for stress recovery:              6.68          2.59
+               total time for matrix solution:             45.42         28.86
+               total time for output:                      10.01          3.92
+               total time for miscellaneous:                2.81          0.89
+               ---------------------------------------------------------------
+               total time:                                 92.48         63.24
+
+
+             **************************************************************************
+
+
+             
+             This is a successful completion to a Marc simulation,
+             indicating that no additional incremental data was
+             found and that the analysis is complete.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                         Marc 2013.1.0
+
+                                        Exit number 3004
+

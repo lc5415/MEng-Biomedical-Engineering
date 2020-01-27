@@ -1,0 +1,14 @@
+style=1
+information summary of job:  model5_Compression
+version:   Marc 2013.1.0, Build 230727  build date: Sat Oct 26 13:00:39 2013
+date:     Tue Apr 03 13:01:46 2018
+
+    case   inc  cycl  sepa cut   cycl   separ   cut  rmesh time step   total time        displ-mag              
+      #     #     #     #   #      #      #      #     #      of           of         min         max    
+               |--of the inc--|------of the analysis------| the inc      the job
+
+      0      0    1    0    0       1       0     0     0  0.0000E+00  0.0000E+00  2.6339E-17  5.3465E-02
+
+ Job ends with exit number :    3004
+            total wall time:         93.33
+            total cpu  time:         65.05

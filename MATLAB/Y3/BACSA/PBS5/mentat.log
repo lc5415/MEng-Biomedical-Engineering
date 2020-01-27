@@ -1,0 +1,308 @@
+Marc Mentat (C)Copyright 1994-2018, MSC Software Corporation, all rights reserved
+Command > *open_model "h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.mud"
+File is Mentat, version unknown.
+Model file h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.mud opened for reading.
+Model h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs opened.
+Command > *elements_solid *regenerate
+Command > *fill_view
+Command > *dynamic_model_on
+Command > *edit_job job1
+Enter edit job : 
+Command > *edit_job job1
+Enter edit job : *update_job
+Enter edit job : @popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+Number of increments detected : 47
+Command > *post_contour_bands
+Command > *post_value Comp 22 of Elastic Strain
+Enter post variable : *post_monitor
+Post increment 1:0
+Post increment 2:0
+Post increment 3:0
+Post increment 4:0
+Post increment 5:0
+Post increment 6:0
+Post increment 7:0
+Post increment 8:0
+Post increment 9:0
+Post increment 10:0
+Post increment 11:0
+Post increment 12:0
+Post increment 13:0
+Post increment 14:0
+Post increment 15:0
+Post increment 16:0
+Post increment 17:0
+Post increment 18:0
+Post increment 19:0
+Post increment 20:0
+Post increment 21:0
+Post increment 22:0
+Post increment 23:0
+Post increment 24:0
+Post increment 25:0
+Post increment 26:0
+Post increment 27:0
+Post increment 28:0
+Post increment 29:0
+Post increment 30:0
+Post increment 31:0
+Post increment 32:0
+Post increment 33:0
+Post increment 34:0
+Post increment 35:0
+Post increment 36:0
+Post increment 37:0
+Post increment 38:0
+Post increment 39:0
+Post increment 40:0
+Post increment 41:0
+Post increment 42:0
+Post increment 43:0
+Post increment 44:0
+Post increment 45:0
+Post increment 46:0
+End of analysis!
+Command > *post_close
+Command > *colormap 1
+Command > *edit_apply fix_bottom_y
+Enter apply name : *edit_apply fix_bottom_y
+Enter apply name : *prog_use_current_job on *new_job *job_class structural
+Command > *job_option elastic:on
+Command > *add_post_tensor stress
+Enter add job post tensor : *add_post_tensor el_strain
+Enter add job post tensor : *add_post_var von_mises
+Enter add job post variable : *check_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+INFO: Job check complete.
+Enter add job post variable : *update_job
+Enter add job post variable : *submit_job 1 *monitor_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+C:\MSC~1.SOF\Marc\20131~1.0\MENTAT~1.1\bin\submit1.bat marc default 1 1 - - tut3-cube-different_bcs_job2 - - - - - 0 n n - - 0 1 1 0 - -
+Job job2 submitted!
+Command > @popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+Number of increments detected : 1
+Command > *post_contour_bands
+Command > *post_monitor
+End of analysis!
+Command > *set_deformed both
+Command > *post_close
+Command > *edit_job job2
+Enter edit job : 
+Command > *edit_job job2
+Enter edit job : *update_job
+Enter edit job : @popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+Number of increments detected : 1
+Command > *post_contour_bands
+Command > *post_close
+Command > *edit_apply top_pressure *copy_apply
+Enter apply name : *edit_apply apply6
+Enter apply name : 
+Command > *edit_apply apply6
+Enter apply name : *apply_dof_table p
+Enter boundary condition D.O.F. table name : *clear_apply_dof_table p
+Command > *edit_job job2
+Enter edit job : 
+Command > *edit_job job2
+Enter edit job : *add_job_applys apply6
+Enter add job initial boundary condition : *remove_job_applys top_pressure
+Enter remove job initial boundary condition : *update_job
+Enter remove job initial boundary condition : *save_model
+Model file h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.mud opened for writing.
+Model saved to h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.
+Enter remove job initial boundary condition : *submit_job 1 *monitor_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+C:\MSC~1.SOF\Marc\20131~1.0\MENTAT~1.1\bin\submit1.bat marc default 1 1 - - tut3-cube-different_bcs_job2 - - - - - 0 n n - - 0 1 1 0 - -
+Job job2 submitted!
+Command > @popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+Number of increments detected : 1
+Command > *post_contour_bands
+Command > *post_close
+Command > *edit_job job1
+Enter edit job : 
+Command > *edit_job job1
+Enter edit job : *update_job
+Enter edit job : *job_submit_reset
+Job not currently running!
+Enter edit job : *submit_job 1 *monitor_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+C:\MSC~1.SOF\Marc\20131~1.0\MENTAT~1.1\bin\submit1.bat marc default 1 1 - - tut3-cube-different_bcs_job1 - - - - - 0 n n - - 0 1 1 0 - -
+Job job1 submitted!
+Command > @popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+Number of increments detected : 47
+Command > *post_monitor
+Post increment 1:0
+Post increment 2:0
+Post increment 3:0
+Post increment 4:0
+Post increment 5:0
+Post increment 6:0
+Post increment 7:0
+Post increment 8:0
+Post increment 9:0
+Post increment 10:0
+Post increment 11:0
+Post increment 12:0
+Post increment 13:0
+Post increment 14:0
+Post increment 15:0
+Post increment 16:0
+Post increment 17:0
+Post increment 18:0
+Post increment 19:0
+Post increment 20:0
+Post increment 21:0
+Post increment 22:0
+Post increment 23:0
+Post increment 24:0
+Post increment 25:0
+Post increment 26:0
+Post increment 27:0
+Post increment 28:0
+Post increment 29:0
+Post increment 30:0
+Post increment 31:0
+Post increment 32:0
+Post increment 33:0
+Post increment 34:0
+Post increment 35:0
+Post increment 36:0
+Post increment 37:0
+Post increment 38:0
+Post increment 39:0
+Post increment 40:0
+Post increment 41:0
+Post increment 42:0
+Post increment 43:0
+Post increment 44:0
+Post increment 45:0
+Post increment 46:0
+End of analysis!
+Command > *post_close
+Command > *edit_loadcase lcase1
+Enter loadcase to edit : 
+Command > *edit_loadcase lcase1
+Enter loadcase to edit : *loadcase_option stepping:fixed
+Command > *loadcase_value nsteps 17
+Command > *save_model
+Model file h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.mud opened for writing.
+Model saved to h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.
+Command > *edit_job job1
+Enter edit job : 
+Command > *edit_job job1
+Enter edit job : *check_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+INFO: Job check complete.
+Enter edit job : *update_job
+Enter edit job : *submit_job 1 *monitor_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+C:\MSC~1.SOF\Marc\20131~1.0\MENTAT~1.1\bin\submit1.bat marc default 1 1 - - tut3-cube-different_bcs_job1 - - - - - 0 n n - - 0 1 1 0 - -
+Job job1 submitted!
+Command > @popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+Number of increments detected : 17
+Command > *post_contour_bands
+Command > *post_value Equivalent Elastic Strain
+Enter post variable : *post_monitor
+Post increment 1:0
+Post increment 2:0
+Post increment 3:0
+Post increment 4:0
+Post increment 5:0
+Post increment 6:0
+Post increment 7:0
+Post increment 8:0
+Post increment 9:0
+Post increment 10:0
+Post increment 11:0
+Post increment 12:0
+Post increment 13:0
+Post increment 14:0
+Post increment 15:0
+Post increment 16:0
+End of analysis!
+Command > *post_value Comp 22 of Stress
+Enter post variable : *identify_types *regenerate
+Enter post variable : *post_close
+Enter post variable : *identify_none *regenerate
+Enter post variable : *edit_loadcase lcase1
+Enter loadcase to edit : 
+Command > *edit_loadcase lcase1
+Enter loadcase to edit : *loadcase_option stepping:multicriteria
+Command > *loadcase_value time 1
+Command > *save_model
+Model file h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.mud opened for writing.
+Model saved to h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs.
+Command > *edit_job job1
+Enter edit job : 
+Command > *edit_job job1
+Enter edit job : *update_job
+Enter edit job : *submit_job 1 *monitor_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+C:\MSC~1.SOF\Marc\20131~1.0\MENTAT~1.1\bin\submit1.bat marc default 1 1 - - tut3-cube-different_bcs_job1 - - - - - 0 n n - - 0 1 1 0 - -
+Job job1 submitted!
+Command > @popdown(job_properties_pm) @main(results) @popup(modelplot_pm) *post_open_default
+Number of increments detected : 47
+Command > *post_monitor
+Post increment 1:0
+Post increment 2:0
+Post increment 3:0
+Post increment 4:0
+Post increment 5:0
+Post increment 6:0
+Post increment 7:0
+Post increment 8:0
+Post increment 9:0
+Post increment 10:0
+Post increment 11:0
+Post increment 12:0
+Post increment 13:0
+Post increment 14:0
+Post increment 15:0
+Post increment 16:0
+Post increment 17:0
+Post increment 18:0
+Post increment 19:0
+Post increment 20:0
+Post increment 21:0
+Post increment 22:0
+Post increment 23:0
+Post increment 24:0
+Post increment 25:0
+Post increment 26:0
+Post increment 27:0
+Post increment 28:0
+Post increment 29:0
+Post increment 30:0
+Post increment 31:0
+Post increment 32:0
+Post increment 33:0
+Post increment 34:0
+Post increment 35:0
+Post increment 36:0
+Post increment 37:0
+Post increment 38:0
+Post increment 39:0
+Post increment 40:0
+Post increment 41:0
+Post increment 42:0
+Post increment 43:0
+Post increment 44:0
+Post increment 45:0
+Post increment 46:0
+End of analysis!
+Command > *save_model *quit yes
+Model file h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs_job1.t16.mud opened for writing.
+Model saved to h:\year 3\spring term\bacsa\pbs5\tut3-cube-different_bcs_job1.t16.

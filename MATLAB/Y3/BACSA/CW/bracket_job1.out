@@ -1,0 +1,712 @@
+                            M               M
+                            W               W
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    M               M               M
+                    W               W               W
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                            M               M
+                            W               W
+
+             version:  Marc 2013.1.0, Build 230727  build date: Sat Oct 26 13:00:39 2013
+
+             machine type: Windows
+
+             integer*4 version: integers are 32-bits
+
+             date: Fri Mar 09 18:22:35 2018
+
+
+             (c) COPYRIGHT 2013 MSC Software Corporation, all rights reserved
+
+                     Marc 2013.1.0 - W i n d o w s       
+
+                     i n p u t   d a t a
+
+
+                p a g e          1
+
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     title               job1
+                     $....MARC input file produced by Marc Mentat 2013.1.0 (64bit)
+                     $...................................
+                     $....input file using extended precision
+    card         5   extended
+                     $...................................
+                     sizing                                 0      4420      1585         0
+                     alloc                       25
+                     elements                   134
+    card        10   version                     11
+                     table                        0         0         2         1         1         0         0         1
+                     processor                    1         1         1         0
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+             general memory increasing from      25 MByte to      53 MByte
+
+
+             memory increased to        14001932 words during 
+             pre-reading of sets
+
+
+
+   MSC Customer Entitlement ID
+        56AC76BE-2832F2FA
+
+
+
+                    *************************************************
+                    *************************************************
+
+                     program sizing and options requested as follows
+
+
+
+                     element type requested*************************       134
+                     number of elements in mesh*********************      4420
+                     number of nodes in mesh************************      1585
+                     load correction was suppressed*****************
+                     number of constraint(tying) equations**********       108
+                     number of retained nodes plus one**************         8
+                     elastic re-analysis flagged********************
+                     values stored at all integration points********
+                     tape no.for input of coordinates + connectivity         5
+                     no.of different materials    1 max.no of slopes         5
+                     number of points on shell section *************        11
+                     new style input format will be used************
+                     total number of tasks   used ******************         1
+                     total number of threads used ******************         1
+                     total number of processors used ***************         1
+                     extended precision input is used ************** 
+                     Marc input version ****************************        11
+                     maximum number of boundary conditions *********         3
+                     suppress echo of list items *******************
+                     suppress echo of bc summary *******************
+                     suppress echo of nurbs data *******************
+
+
+                     end of parameters and sizing
+                    *************************************************
+                    *************************************************
+
+
+
+
+
+                              key to stress, strain and displacement output
+
+
+
+                                        element type       134
+
+
+                              4-node isoparametric tetrahedral                       
+
+                              stresses and strains in global directions               
+                                1=xx                                                  
+                                2=yy                                                  
+                                3=zz                                                  
+                                4=xy                                                  
+                                5=yz                                                  
+                                6=xz                                                  
+                                                                                      
+                              displacements in global directions                      
+                                1=u global x direction                                
+                                2=v global y direction                                
+                                3=w global w direction                                
+
+             allocated     418447 words of memory due to nodal vectors
+
+
+             allocated        851 words of memory due to boundary conditions
+
+
+             allocated          7 words of memory due to geometric points
+
+
+             allocated         32 words of memory due to geometric curves
+
+
+             allocated         15 words of memory due to geometric surfaces
+
+
+             allocated       3170 words of memory due to shell, user or contact transformations
+
+
+             allocated       2595 words of memory due to tyings
+
+
+             allocated         14 words of memory due to tyings
+
+
+
+             workspace needed for input and stiffness assembly:          149271
+
+
+             internal core allocation parameters
+             degrees of freedom per node (ndeg)  6
+             max. number of coordinates per node  3
+             max. nodes per element (nnodmx)  4
+             max. invariants per int. points (neqst)  1
+             max.stress components per int. point (nstrmx)   6
+             strains per integration point (ngens)  6
+
+
+             flag for element storage (ielsto)  0
+             element data in core
+
+             memory usage per element group
+                group   # elements     nelsto      MByte            words
+                  1         4420         200           3            884000
+                ----------------------------------------------------------
+                total       4420                       3            884000
+
+
+                              internal element variables
+
+
+
+                              internal element number         1  library code type  134
+                              number of nodes=  4
+                              stresses stored per integration point =  6
+                              direct continuum components stored =  3
+                              shear continuum components stored =  3
+                              shell/beam flag = 0
+                              curvilinear  coord. flag = 0
+                              int.points for elem. stiffness  1
+                              number of local inertia directions  3
+                              int.point for print if all points not flagged  1
+                              int. points for dist. surface loads (pressure)  4
+                              library code type =   134
+                              large disp. row counts     6    6    6   11   11   11
+
+
+
+                              residual load correction is switched off
+
+
+
+             $...................                                                                                                                                            
+
+             solver                                                                                                                                                          
+             ----------
+
+
+             multifrontal direct sparse solver invoked
+
+             optimize                    11                                                                                                                                  
+             ----------
+
+
+
+             metis nested dissection algorithm
+
+             connectivity                                                                                                                                                    
+             ----------
+
+                meshr1,  iprnt
+                      5      1
+                elem no., type,        nodes
+
+             coordinates                                                                                                                                                     
+             ----------
+
+             ncrd1 ,meshr1,iprnt
+                    3         5         1
+                   node      coordinates
+
+             define              node                set                 TOP_nodes                                                                                           
+             ----------
+
+             a list of nodes given below 
+                   821       822       823       824       825       826       827       828       829       830       831       832      1338
+                     echo suppressed for        47 items
+                     total number of items read:        60
+
+             define              node                set                 BOTTOM1_nodes                                                                                       
+             ----------
+
+             a list of nodes given below 
+                   908       909       910       911       912       913       914       915       916       917       918       919      1126
+                     echo suppressed for        11 items
+                     total number of items read:        24
+
+             define              node                set                 BOTTOM2_nodes                                                                                       
+             ----------
+
+             a list of nodes given below 
+                    97        98        99       100       101       102       103       104       105       106       107       108       498
+                     echo suppressed for        11 items
+                     total number of items read:        24
+
+             define              node                set                 apply1_nodes                                                                                        
+             ----------
+
+             a list of nodes given below 
+                  1583
+
+             define              node                set                 apply2_nodes                                                                                        
+             ----------
+
+             a list of nodes given below 
+                  1583
+
+             define              node                set                 apply3_nodes                                                                                        
+             ----------
+
+             a list of nodes given below 
+                  1584      1585
+
+             isotropic                                                                                                                                                       
+             ----------
+
+
+             isotropic material  material id =          1
+              elastic    yield criteria
+              isotropic  hardening rule
+
+             material name is:       6082                    
+
+
+                 structural  property                         value       table id
+
+
+             Youngs modulus                              6.90000E+04         0
+             Poissons ratio                              3.30000E-01         0
+             mass density                                0.00000E+00         0
+             shear modulus                               2.59398E+04         0
+             coefficient of thermal expansion            0.00000E+00         0
+             Yield stress                                1.00000E+20         0
+             cost per unit volume                        0.00000E+00         0
+             cost per unit mass                          0.00000E+00         0
+
+
+             from element       2945 to element       7364 by          1
+
+             fixed disp                                                                                                                                                      
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition apply2
+
+             Displacements are applied incrementally relative to current position
+
+             Prescribed Displacement for dof  1 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  2 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  3 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  4 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  5 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  6 =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             apply2_nodes                                                                                                                                                    
+
+             point load                                                                                                                                                      
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition apply1
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =     -5.00000E+02  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             apply1_nodes                                                                                                                                                    
+
+             name of boundary condition apply3
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      2.50000E+02  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             apply3_nodes                                                                                                                                                    
+
+             loadcase            job1                                                                                                                                        
+             ----------
+
+
+             activate boundary condition apply1
+
+             activate boundary condition apply2
+
+             activate boundary condition apply3
+
+             rbe2                                                                                                                                                            
+             ----------
+
+             read from unit     5
+             tying number                 =         1 to         60
+             reference node               =      1583
+             DOF of the tied nodes        =         0
+             number of tied nodes in list =        60
+             list of tied nodes:
+                    821       822       823       824       825       826       827       828
+                    829       830       831       832      1338      1339      1340      1341
+                   1342      1343      1344      1345      1346      1347      1348      1349
+                   1433      1434      1435      1436      1437      1438      1439      1440
+                   1441      1442      1443      1444      1445      1446      1447      1448
+                   1449      1450      1451      1452      1453      1454      1455      1456
+                   1457      1458      1459      1460      1461      1462      1463      1464
+                   1465      1466      1467      1468
+             tying number                 =        61 to         84
+             reference node               =      1584
+             DOF of the tied nodes        =         0
+             number of tied nodes in list =        24
+             list of tied nodes:
+                    908       909       910       911       912       913       914       915
+                    916       917       918       919      1126      1127      1128      1129
+                   1130      1131      1132      1133      1134      1135      1136      1137
+             tying number                 =        85 to        108
+             reference node               =      1585
+             DOF of the tied nodes        =         0
+             number of tied nodes in list =        24
+             list of tied nodes:
+                     97        98        99       100       101       102       103       104
+                    105       106       107       108       498       499       500       501
+                    502       503       504       505       506       507       508       509
+
+             no print                                                                                                                                                        
+             ----------
+
+
+             post                                                                                                                                                            
+             ----------
+
+             number of element variables on post file:    4
+
+             binary post file will be used
+
+             initial output frequency of post file:       1
+
+             MSC.Marc 2005 style post file
+
+             post variable     1 is post code   17 =                                                 
+             post variable     2 is post code  127 =                                                 
+             post variable     3 is post code  311 =                                                 
+             post variable     9 is post code  401 =                                                 
+             maximum record length on binary post file=           1585
+             approximate no. of words per increment on file=          61896
+
+
+             parameters                                                                                                                                                      
+             ----------
+
+
+             parameters set as follows 
+
+             predictor used for stress-strain calculation    1.00000E+00
+             penalty factor for boundary conditions          1.00000E+09
+             penalty for incompressibility - r-p flow        1.00000E+02
+             penalty for incompressibility - fluid flow      1.00000E+06
+             beta parameter for Newmark operator             2.50000E-01
+             gamma parameter for Newmark operator            5.00000E-01
+             gamma1 parameter for Single-Step-Houbolt        1.50000E+00
+             gamma parameter for Single-Step-Houbolt        -5.00000E-01
+             sharp angle for sticking/separating - 2D        8.62500E+00
+             sharp angle for sticking/separating - 3D        2.00000E+01
+             initial strain rate for r-p flow                1.00000E-04
+             lowest strain rate cut-off for r-p flow         1.00000E-06
+             fraction of dilatational stress neglected       1.00000E+00
+             factor for drilling d.o.f for shells            1.00000E-04
+             factor for displacement after rezoning          1.00000E+00
+
+             universal gas constant                          8.31400E+00
+             absolute temperature offset                     2.73150E+02
+             thermal properties evaluation weight            5.00000E-01
+             surface projection factor in ssh dynamics       0.00000E+00
+             Stefan Boltzmann constant                       5.67051E-08
+             Planck's second radiation constant              1.43877E-02
+             Speed of light in vacuum                        2.99790E+08
+             Permeability of vacuum                          1.25664E-06
+             Permittivity of vacuum                          8.85419E-12
+             maximum iterative displacement component        1.00000E+30
+             initial stiffness to simulate sticking          0.00000E+00
+             minimum angle between the normal vectors of 
+             contacting segments                             1.20000E+02
+             radiation reflection cut-off                    1.00000E-03
+             angle for averaging adjacent beams (s2s)        1.60000E+02
+             stabilizer stiffness for model sections         0.00000E+00
+
+             maximum change in temperature per iteration     1.00000E+02
+             maximum rbe3 conditioning number                0.10000E+07
+
+             end option                                                                                                                                                      
+             ----------
+
+             wall time =           2.00
+
+             wall time =           2.00
+
+
+             direct symmetric multi-frontal sparse solver is invoked for region   1
+
+
+             number of element groups used:         1
+
+                group     # elements     element type     material                             formulation
+
+                   1        4420           134                1                                    S
+ 
+               formulation:
+                     S:   small displacement
+ 
+
+     **** note ****
+     can not find the following flow-data file 
+     in job directory or in the material library:
+     C:\MSC.Software\Marc\2013.1.0\marc2013.1\AF_flowmat\6082.mat
+     This is ok if no separate flow-data file is required.
+     Otherwise please provide the data file or result
+     will be wrong.
+
+
+
+             maximum connectivity in stiffness matrix is        118 at node       1583
+
+
+
+             maximum half-bandwidth is       1567  between nodes          7  and       1573
+
+             number of profile entries excluding fill-in is            9291
+
+
+
+             total workspace needed with in-core matrix storage =         1171719
+               part of solver workspace is allocated separately
+
+             allocated         72 words of memory due to kinematic boundary conditions
+
+
+
+
+
+
+
+             load increments for each degree of freedom
+             summed over the whole model
+
+             from distributed loads
+             dist. loads on undeformed configuration - increments for dist. loads
+             increments for point loads
+             0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00
+
+
+             point loads
+             0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00
+
+             start of assembly     cycle number is     0
+             wall time =           2.00
+
+
+
+
+             solver workspace for phase1 (matrix input)    (64bit words) =           11675 (      0.09 MByte)
+             Metis nested dissection ordering used
+             solver workspace for phase2 (nodal ordering)  (64bit words) =           38075 (      0.29 MByte)
+             solver workspace for phase3 (symbolic factor) (64bit words) =           61671 (      0.47 MByte)
+             solver workspace for phase4 (factorization)   (64bit words) =          185543 (      1.42 MByte) (MINIMUM)
+             solver workspace for phase4 (factorization)   (64bit words) =          503939 (      3.84 MByte) (MAXIMUM)
+             solver workspace available and used           (64bit words) =         1000000 (      7.63 MByte)
+
+
+             start of matrix solution
+             wall time =           2.00
+
+
+
+             singularity ratio    1.4476E-04
+
+
+             end of matrix solution
+             wall time =           2.00
+
+
+
+             element with highest stress relative to yield is       3755
+             where equivalent stress is 4.234E-19  of yield
+
+
+
+
+
+
+
+   Windows version
+    Marc 2013.1.0, Build 230727  build date: Sat Oct 26 13:00:39 2013
+   output for increment       0. "          job1"
+
+
+             total strain energy         is    2.15115E+01
+               within which:
+               elastic strain energy     is    2.15115E+01
+             total ext-force work        is    2.15115E+01
+               within which:
+               work by appl. force/disp. is    2.15115E+01
+               work by frictional forces is    0.00000E+00
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           1      143624         0.6
+               solver: first part                    4     1022448         4.2
+               overallocation initial allocation    49    12830217        52.3
+               other:                                0        5643         0.0
+              allocated separately:
+               solver 8                              8     1976650         8.1
+               nodal vectors:                        2      420032         1.7
+               defined sets:                         0         310         0.0
+               tyings:                               0        7793         0.0
+               transformations:                      0        3170         0.0
+               kinematic boundary conditions:        0         923         0.0
+               points, curves and surfaces:          0          54         0.0
+               mem_none:                             1      172875         0.7
+               element storage:                      4      963710         3.9
+               material properties:                  0        2032         0.0
+               executable and common blocks:        27     7000000        28.5
+               miscellaneous                         0         111         0.0
+               ---------------------------------------------------------------
+               total:                               94    24549592
+
+               general memory allocated:            53    14001932
+               general memory used:                  4     1171715
+
+               peak memory usage:                  105    27555560
+
+             e n d   o f   i n c r e m e n t       0
+
+             binary post data at increment       0.  subincrement    0.  on file 16
+             wall time =           2.00
+
+
+             $...................                                                                                                                                            
+
+
+                              *** end of input deck - job ends
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           1      143624         0.6
+               solver: first part                    4     1022448         4.2
+               overallocation initial allocation    49    12830217        52.3
+               other:                                0        5643         0.0
+              allocated separately:
+               solver 8                              8     1976650         8.1
+               nodal vectors:                        2      420032         1.7
+               defined sets:                         0         310         0.0
+               tyings:                               0        7793         0.0
+               transformations:                      0        3170         0.0
+               kinematic boundary conditions:        0         923         0.0
+               points, curves and surfaces:          0          54         0.0
+               mem_none:                             1      172875         0.7
+               element storage:                      4      963710         3.9
+               material properties:                  0        2032         0.0
+               executable and common blocks:        27     7000000        28.5
+               miscellaneous                         0         111         0.0
+               ---------------------------------------------------------------
+               total:                               94    24549592
+
+               general memory allocated:            53    14001932
+               general memory used:                  4     1171715
+
+               peak memory usage:                  105    27555560
+
+
+             timing information:                       wall time      cpu time
+
+               total time for input:                        0.16          0.16
+               total time for stiffness assembly:           0.02          0.02
+               total time for stress recovery:              0.01          0.02
+               total time for matrix solution:              0.05          0.03
+               total time for output:                       0.05          0.02
+               total time for miscellaneous:                1.69          0.45
+               ---------------------------------------------------------------
+               total time:                                  1.98          0.69
+
+
+             **************************************************************************
+
+
+             
+             This is a successful completion to a Marc simulation,
+             indicating that no additional incremental data was
+             found and that the analysis is complete.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                         Marc 2013.1.0
+
+                                        Exit number 3004
+

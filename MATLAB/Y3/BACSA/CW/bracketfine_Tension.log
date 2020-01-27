@@ -1,0 +1,170 @@
+ Marc 2013.1.0 , Build  230727  Windows_NT version 
+-------------------------------- 
+                     :         
+Program name         : marc  
+Job ID               : H:\YEAR 3\SPRING TERM\BACSA\CW\bracketfine_Tension   
+Version type         : i4  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intel-mpi 
+Auto restart         : 0  
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads :  
+Solver processes     :  
+Solver threads       :  
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : H:\YEAR 3\SPRING TERM\BACSA\CW 
+Scratch directory    : H:\YEAR 3\SPRING TERM\BACSA\CW 
+Default bin directory: C:\MSC.Software\Marc\2013.1.0\marc2013.1\bin\win64 
+Material database    : C:\MSC.Software\Marc\2013.1.0\marc2013.1\AF_flowmat\    
+                     :            
+ 
+09/03/2018 
+16:52
+ 
+  Marc 2013.1.0 bracketfine_Tension begins execution
+
+     (c) COPYRIGHT 2013 MSC Software Corporation, all rights reserved
+
+
+ Requested number of element threads                     =    1
+ Requested number of solver threads                      =    1
+
+
+ VERSION:  Marc 2013.1.0, Build 230727  build date: Sat Oct 26 13:00:39 2013                                                                                              
+
+
+
+     Date: Fri Mar 09 16:52:51 2018
+
+                               Marc 2013.1.0 execution begins
+ Date:          Fri Mar 09 16:52:52 2018
+ MSC Id:        ecb1d763e785 (ethernet) (Intel)
+ Hostname:      rsmwsg08-077 (user lc5415, display rsmwsg08-077)
+ License files: 1700@patran.cc.ic.ac.uk
+ CEID:          56AC76BE-2832F2FA
+ User:          lc5415
+ Display:       rsmwsg08-077
+ LAPI Version:  LAPI 9.3.1-2109 (FLEXlm 11.9.0.0)
+Acquired 1 license for Marc from license server on host patran.cc.ic.ac.uk
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =      8098 MByte
+
+             general memory increasing from      25 MByte to      53 MByte
+
+   MSC Customer Entitlement ID
+        56AC76BE-2832F2FA
+
+             wall time =           4.00
+
+             wall time =           5.00
+
+             general memory increasing from      53 MByte to     105 MByte
+
+             start of assembly     cycle number is     0
+             wall time =           5.00
+
+
+
+             start of matrix solution
+             wall time =           7.00
+
+             non-positive definite system at user node     18505 internal node      2603
+                                     degree of freedom  3
+             wall time =           8.00
+
+Returned 1 license for Marc
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:          16     4176150         2.9
+               solver: first part                   89    23455500        16.5
+               overallocation initial allocation     0           4         0.0
+               other:                                1      135505         0.1
+              allocated separately:
+               solver 8                            212    55495692        38.9
+               nodal vectors:                       32     8344062         5.9
+               defined sets:                         0         729         0.0
+               tyings:                               0       38033         0.0
+               transformations:                      0       62974         0.0
+               kinematic boundary conditions:        0         712         0.0
+               points, curves and surfaces:          0          54         0.0
+               mem_none:                            18     4602063         3.2
+               element storage:                    150    39210164        27.5
+               material properties:                  0        2032         0.0
+               executable and common blocks:        27     7000000         4.9
+               miscellaneous                         0         111         0.0
+               ---------------------------------------------------------------
+               total:                              544   142523785
+
+               general memory allocated:           106    27767159
+               general memory used:                106    27767155
+
+               peak memory usage:                  558   146238865
+
+
+             timing information:                       wall time      cpu time
+
+               total time for input:                        4.06          3.99
+               total time for stiffness assembly:           0.68          0.67
+               total time for stress recovery:              0.00          0.00
+               total time for matrix solution:              0.05          0.06
+               total time for output:                       0.00          0.00
+               total time for miscellaneous:                3.75          2.54
+               ---------------------------------------------------------------
+               total time:                                  8.54          7.27
+
+
+             **************************************************************************
+
+
+             
+             The determinant of the stiffness matrix becomes zero or
+             negative when indicated node has been reached during the
+             Gaussian elimination phase of the solution process. This
+             means that the stiffness matrix is non-positive definite.
+             If this happens at the start of the analysis, the condition
+             is usually caused by the existence of rigid body modes.  It
+             may also be caused by incorrect material properties (e.g.
+             Poisson's ratio greater than 0.5; note that such situations
+             may arise through temperature dependence of properties). In
+             nonlinear cases, the structure may have buckled or reached a
+             plastic limit load. In rubber analysis, it may also be due
+             to the strain state being in a region where the input data
+             for the strain energy function is invalid. In contact
+             analysis with friction, lack of normal forces may result in
+             friction being absent. If desired, the program may be forced
+             to continue by use of the parameter PRINT or the model or
+             history definition option CONTROL. Either one of these
+             procedures may be used for restart. Whenever a non-positive
+             definite situation occurs one must exercise caution, as the
+             resultant numerical solution may be infeasible.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                         Marc 2013.1.0
+
+                                        Exit number 2004
+
