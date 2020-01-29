@@ -1,6 +1,6 @@
 # MEng-Biomedical-Engineering
 
-This repository includes code-related and technical work I did individually or in group throughout my 4 year MEng in Biomedical Engineering at Imperial College (2015-2019). This includes work in C++, MATLAB, PCB design, COMSOL, SolidWorks and Finite-Element Analysis (FEA).
+This repository includes code-related and technical comouter work I did individually or in group throughout my 4 year MEng in Biomedical Engineering at Imperial College (2015-2019). This includes work in C++, MATLAB, PCB design, COMSOL, SolidWorks and Finite-Element Analysis (FEA).
 
 # DISCLAIMER:
 _I include in this repository all relevant courseworks or project I completed. All practicals I completed throughout my degree are listed to show the variaety and volume of subjects I was trained on. The respective files/scripts of those practicals are not included given the code from those was not entirely a product of my independent work but that of TAs and Course leaders._
