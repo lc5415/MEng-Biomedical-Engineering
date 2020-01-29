@@ -15,7 +15,7 @@ __Courses__: *Signals & Systems, Control Systems, Modelling in biology, Brain Ma
 __Learning Outcomes:__  
 __Relevant work:__ Practicals on modelling ion channels in single neurons, single neurons responses, groups of neurons through synapses and networks of neurons.
 ### Brain Machine Interfaces (Year 4)
-__Learning Outcomes:__Understand the way in which as of today the nervous system can be interfaced with electronic devices. Understanding the challenging faced when designing brain-machine interfaces.  
+__Learning Outcomes:__ Understand the way in which as of today the nervous system can be interfaced with electronic devices. Understanding the challenging faced when designing brain-machine interfaces.  
 __Relevant work:__ Development of a script to predict hand movement of a monkey from Brain EEG signals using A Naive-Bayes Classifiers and a linear regressor. Report and code available.
 ### MEng Thesis - Curve fitting algorithms for Growth curve analysis and pipetting robot automation scripts(Year 4)
 __Relevant work:__ Develop curve fitting alogrithms with optional choice of loss fonctions (RMSE, AIC, cross-entropy...) for fitting growth curve of biological organism from plate-reader experiments. Alternatively developed a script (from Alice Boo's original script) to help in the automation of diltion protocol for plate-reader experiments.
