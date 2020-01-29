@@ -8,11 +8,7 @@ MATLAB/BioInst/other/
 MATLAB/MiB/notes/
 **/MiB/MatlabPracticals/
 **/compneuro/
-MATLAB/MEngThesis/matlab_scripts/*
-!MATLAB/MEngThesis/matlab_scripts/FelixDilutions/GOODdilutions_b.m
-MATLAB/MEngThesis/MODELS/LUIS
-!MATLAB/MEngThesis/MODELS/LUIS/*.m
-
+*/Scripts/
 
 
 **/Y2
