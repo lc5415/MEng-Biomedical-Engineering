@@ -42,7 +42,7 @@ __Relevant work:__ Simulation an electrochemical reaction from a circular electr
 ## PCB/Circuit design (KiCAD)
 __Courses__: *Biomedical Instrumentation and iGEM Competition*
 ### Biomedical Instrumentation (Year 3)
-__Learning outcomeS:__ Know and understand the structure of basic building blocks (e.g.op-amps) as well as their limitations and non-idealities. Understanding how the latter affect system-wide performance.  
+__Learning outcomes:__ Know and understand the structure of basic building blocks (e.g.op-amps) as well as their limitations and non-idealities. Understanding how the latter affect system-wide performance.  
 __Relevant work__: Design and implementation of an op-amp based circuit for a biomedical device.
 ### iGEM PCB board (In collaboration with William Beardall)
 __Aim:__ Designing an array of independent electrodes to be used as electrochemical cells (Purpose: allowing bio-electrical interface between electrodes and genetically modified *Escherichia Coli*.  
