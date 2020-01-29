@@ -3,16 +3,16 @@ MATLAB/BACSA/CW/
 MATLAB/BACSA/pbs6/
 MATLAB/BACSA/marcmentat/
 MATLAB/BACSA/PBS5/
-*/BACSA/CW.xlsx
+**/BACSA/CW.xlsx
 MATLAB/BioInst/other/
 MATLAB/MiB/notes/
-*/MiB/MatlabPracticals/
-*/compneuro/
-*/matlab_scripts/*
-!*/matlab_scripts/Felix\ Dilutions/GOODdilutions_b.m
-*/MODELS/*
-!*/MODELS/LUIS/*.m
+**/MiB/MatlabPracticals/
+**/compneuro/
+**/matlab_scripts/*
+!**/matlab_scripts/Felix\ Dilutions/GOODdilutions_b.m
+**/MODELS/*
+!**/MODELS/LUIS/*.m
 
 
 
-*/Y2/
+**/Y2/
